@@ -1,0 +1,6 @@
+.idea
+#ignore node_modules to comit
+node_modules/
+
+#ignore package-lock.json to comit
+package-lock.json

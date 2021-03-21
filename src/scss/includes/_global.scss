@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:focus,
+input:focus {
+  outline: transparent;
+}
+
+h1 {
+  @include adaptiv-font("font-size", 40, 20, 0);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  max-width: $maxWidthContainer;
+  padding: 0 15px;
+  margin: 0 auto;
+  z-index: 999;
+}
+
+// .wrapper {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   justify-content: center;
+//   flex-wrap: wrap;
+//   width: 100%;
+//   // max-width: $maxWidth;
+//   margin: 0 auto;
+// }
