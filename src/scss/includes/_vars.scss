@@ -1,7 +1,11 @@
-//--------- Size variable ----------------
-$minWidth: 320px;
-$maxWidthCanvas: 1370px;
-$maxWidthContainer: 1170px;
+// ------- Width variable---------
+$minWidth: 320;
+$maxWidthCanvas: 1270;
+$maxWidthContainer: 1170;
+
+$min: #{$minWidth + px};
+$canvas: #{$maxWidthCanvas + px};
+$container: #{$maxWidthContainer + px};
 
 // ------- Color variable---------
 $black: rgba(0, 0, 0, 1);

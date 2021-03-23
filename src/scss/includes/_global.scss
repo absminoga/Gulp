@@ -38,7 +38,7 @@ input:focus {
 }
 
 h1 {
-  @include adaptiv-font("font-size", 40, 20, 0);
+  @include adaptiv-value("font-size", 40, 20, 1);
 }
 
 .container {
@@ -46,19 +46,8 @@ h1 {
   flex-direction: row;
   width: 100%;
   height: 100%;
-  max-width: $maxWidthContainer;
+  max-width: $container;
   padding: 0 15px;
   margin: 0 auto;
   z-index: 999;
 }
-
-// .wrapper {
-//   display: flex;
-//   flex-direction: row;
-//   align-items: center;
-//   justify-content: center;
-//   flex-wrap: wrap;
-//   width: 100%;
-//   // max-width: $maxWidth;
-//   margin: 0 auto;
-// }
